@@ -1,0 +1,22 @@
+html{
+    font-size: 1.6rem, sans-serif;
+    background: darkcyan;
+}
+
+h1{
+    color:red;
+    text-align: center;
+    font-weight: bolder;
+    background-color: yellow;
+}
+h2{
+    color:blue;
+    background-color:orange;
+    margin: 1rem;
+    
+}
+footer{
+    color:red;
+}
+
+
