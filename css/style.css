@@ -1,9 +1,8 @@
-html{
+html {
     font: 1.6rem, sans-serif;
     background-color:paleturquoise;
-
 }
-h1{
+ h1{
     color:red;
     text-align: center;
     font-weight: bolder;
@@ -29,11 +28,9 @@ section{
     margin-bottom:1rem;
     margin-left:20%;
     margin-right:20%;
-    background-color:rgb(27, 167, 192);
-    
+    background-color:rgb(27, 167, 192);    
 }
 li{
-
     color:#fff;
 }
 body{
