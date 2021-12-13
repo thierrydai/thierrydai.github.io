@@ -9,21 +9,37 @@
         <link rel="icon" type="image/png" sizes="16x16" href="https://img.icons8.com/material-rounded/50/000000/user-female-circle.png"/>
     </head>
     <body>
+        
         <header>
-            <h1>Thierry DAI - Développement</h1>
+            <h1 id="Home">Thierry DAI - Développement</h1>
         </header>
         <main>     
-            <section>
-                <h2>Compétence</h2>
-                   <img src="asset/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML">
+            <nav>
+                  <a href="#Home">Home</a>
+                  <a href="#Experiences">Experiences</a>
+                  <a href="#End">End</a>
+             </nav>
+            <section id="premier">
+                <h2>Compétence</h2>  
+                        <div class="photo">
+                        <img src="assets/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML">
                     
-                   <img src="asset/CSS3_logo_and_wordmark.svg.png" alt="CSS">
+                        <img src="assets/CSS3_logo_and_wordmark.svg.png" alt="CSS">
 
-                   <img src="asset/Database-mysql.svg.png" alt="MYSQL">
+                        <img src="assets/Database-mysql.svg.png" alt="MYSQL">
 
-                   <img src="asset/1200px-Java_Logo.svg.png" alt="JAVA">
+                        <img src="assets/1200px-Java_Logo.svg.png" alt="JAVA">  
+                        </div>  
             </section>
-            
+            <div class="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li>adresse: 9 Rue du général de larminat</li>
+                    <li>téléphone: 07.83.63.27.58</li>
+                    <li>email: thierrydail@hotmail.com </li>
+                    <li>snap: tdai48</li>
+                </ul>
+            </div>
             <section>
                 <h2>Logiciel</h2>
                 <ul>
@@ -32,7 +48,7 @@
                 </ul>
             </section>
             <section>
-                <h2>Éxperience</h2>
+                <h2 id="Experiences">Éxperience</h2>
                 <ul>
                     <li><a href="https://www.mjcclub.com/" target="_blank">Stage à l'accueil dans une association</a></li>
                 </ul>
@@ -53,9 +69,10 @@
                     <li>Jeux vidéo</li>
                 </ul>
             </section>
+            
         </main>
         <footer>
-            <p>&copy; - Thierry </p>
+            <p id="End">&copy; - Thierry DAI </p>
         </footer>
     </body>
 </html>
