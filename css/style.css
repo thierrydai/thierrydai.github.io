@@ -3,8 +3,10 @@
 
 html{
     font-size: 62.5%; 
+    scroll-behavior: smooth;
 }
 body{
+    font: 1.6rem sans-serif;
     margin: 0;  
 }
 h1,h2,h3,h4,p,ol,ul,figure,dd{
@@ -15,6 +17,9 @@ h1,h2,h3,h4,p,ol,ul,figure,dd{
 h1,h2,h3,h4{
     font-weight: normal;
 }
+a{
+    text-decoration: none;
+}
 /*Theme*/
 
 body{
@@ -24,37 +29,50 @@ main section{
     border-style:solid;
     border-radius: 2rem;
     border-color:#e9967a;
-    margin-bottom:3rem;
+    margin-bottom:5rem;
     margin-left:20%;
     margin-right:20%;
     background-color:rgb(27, 167, 192,0.40);  
     margin-top:1rem;  
 }
 header h1{
-    font-family: cabin;
-    color:rgb(255, 0, 0);
+ 
+    color:blueviolet;
     text-align: center;
     font-weight: bolder;
-    font-size: 8rem;
+    font-size: 6rem;
     margin-bottom:1rem;
+    border:solid;
+    border-color:grey;
+    background:url(https://www.oui.sncf/assets/styles/ratio_2_1_max_width_961/public/media/2020-11/seinedanslesyvelines-istock-marcelloland.jpg?h=8d8fd87c&itok=Ew0qF8_i )no-repeat top/cover;
+    margin-bottom:5rem;
 }
 main nav{
-    text-align:center;
     margin-bottom:20px;
-    border: solid #e9967a ;
-    background-color:none;
-    border-radius:2rem;
-    margin-left:30%;
-    margin-right:30%;
     font-size:2rem;
-    font-family: Orelega One;
+    border:solid grey;
+    position:fixed;
     word-spacing:2rem;
+    border-color:#e9967a;
+    margin-left: 1rem;
+    border-radius:1rem;
+    background-color:rgb(27, 167, 192,0.40); 
+    box-shadow: 2px 2px 2px #e9967a;
+}
+main nav a{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.5rem;
+    
+}
+main nav a:hover{
+    color: #fff;
 }
 section h2{
     margin-top:2rem;
     margin-bottom:2rem;
     font-family: cabin;
-    color:#000000;
+    color:white;
     text-align:center;
     font-size:4rem;
 }
@@ -100,7 +118,7 @@ footer p{
     text-align:center;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    color:black;
+    color:blueviolet;
 }
 .contact{
     position:fixed;
@@ -109,4 +127,7 @@ footer p{
     border-color: #e9967a;
     margin-left:1rem;
     background-color:rgb(27, 167, 192,0.40);
+    box-shadow: 2px 2px 2px #e9967a;
+    
 }
+
