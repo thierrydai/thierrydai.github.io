@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 html{
     font-size: 62.5%; 
     scroll-behavior: smooth;
 }
 body{
-    font: 1.6rem sans-serif;
-    margin: 0;  
+    font: 1.6rem Montserrat sans-serif;
+    margin: 0;
 }
 h1,h2,h3,h4,p,ol,ul,figure,dd{
     margin: 0;
@@ -21,64 +19,79 @@ a{
     text-decoration: none;
 }
 /*Theme*/
-
-body{
-    background:url(https://cdn.radiofrance.fr/s3/cruiser-production/2019/05/1de40013-99c6-4280-b82a-dbf5a9c0b55d/838_gettyimages-941329600.jpg) no-repeat fixed center/cover ;
+:root{
+    --color-primary: #000000;
+    --color-secondary: #1ba7c066;
+    --color-title: #1C1698 ;
 }
-main section{
-    border-style:solid;
-    border-radius: 2rem;
-    border-color:#e9967a;
-    margin-bottom:5rem;
-    margin-left:20%;
-    margin-right:20%;
-    background-color:rgb(27, 167, 192,0.40);  
-    margin-top:1rem;  
+body{
+    background-color:var(--color-secondary);
 }
 header h1{
- 
-    color:blueviolet;
+    color:var(--color-title);
     text-align: center;
     font-weight: bolder;
     font-size: 6rem;
-    margin-bottom:1rem;
-    border:solid;
-    border-color:grey;
-    background:url(https://www.oui.sncf/assets/styles/ratio_2_1_max_width_961/public/media/2020-11/seinedanslesyvelines-istock-marcelloland.jpg?h=8d8fd87c&itok=Ew0qF8_i )no-repeat top/cover;
-    margin-bottom:5rem;
+    margin-bottom:6rem;
+    background-color: var(--color-secondary);
+    
 }
+h1 img{
+    height:5rem;
+    margin-top:2rem;
+    margin-right:1rem;
+}
+
+main section{
+    border-style:solid;
+    border-radius: 2rem;
+    border-color:var(--color-title);
+    margin-bottom:5rem;
+    margin-left:20%;
+    margin-right:20%;
+    background:url(https://img.freepik.com/vecteurs-libre/fond-degrade-effet-bokeh_23-2148360345.jpg?size=626&ext=jpg) no-repeat fixed center/cover;
+    margin-top:1rem;  
+}
+
 main nav{
     margin-bottom:20px;
-    font-size:2rem;
-    border:solid grey;
+    font-size:2.5rem;
+    border:solid ;
     position:fixed;
     word-spacing:2rem;
-    border-color:#e9967a;
-    margin-left: 1rem;
+    border-color:var(--color-title);
+    margin-left: 2rem;
     border-radius:1rem;
-    background-color:rgb(27, 167, 192,0.40); 
-    box-shadow: 2px 2px 2px #e9967a;
+    background-color:var(--color-secondary);
+    
 }
+
 main nav a{
     display: inline-block;
     vertical-align: middle;
     margin: 0.5rem;
+    cursor: pointer;
     
 }
-main nav a:hover{
-    color: #fff;
+nav a:hover{
+    background-color:red;
 }
 section h2{
     margin-top:2rem;
     margin-bottom:2rem;
-    font-family: cabin;
-    color:white;
+    font-family: Montserrat;
+    color:var(--color-title);
     text-align:center;
     font-size:4rem;
 }
-footer p{
-    color:red;
+section h2 img{
+    height:3rem;
+    margin-right:1rem;
 }
+footer p{
+    color: var(--color-title);
+}
+
 .premier{
     text-align: center;
     margin:1rem;
@@ -91,13 +104,12 @@ section div img{
     margin-bottom:2rem;
 }
 section ul li{
-    color:blueviolet;
     text-align:center;
     list-style-type:none;
     font-size:3rem;
     margin-bottom:2rem;
 }
-footer p{
+#End{
     text-align:center;
     font-size:2rem;
 }
@@ -107,7 +119,7 @@ footer p{
 .contact h2{
     font-size: 4rem;
     margin-left:0;
-    font-family:cabin;
+    font-family: Montserrat;
     text-align:center;
     margin-bottom:0.5rem;
 
@@ -118,16 +130,43 @@ footer p{
     text-align:center;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    color:blueviolet;
+    color:var(--color-primary);
 }
 .contact{
     position:fixed;
     border:solid;
     border-radius:1rem;
-    border-color: #e9967a;
-    margin-left:1rem;
-    background-color:rgb(27, 167, 192,0.40);
-    box-shadow: 2px 2px 2px #e9967a;
-    
+    border-color:var(--color-title);
+    margin-left:160rem;
+    margin-top:25rem;
+    background-color:var(--color-secondary);
 }
 
+footer{
+    border:solid var(--color-title); 
+    background-color:var(--color-secondary)
+}
+footer h2{
+    margin:2rem;
+    text-align:center;
+    color:var(--color-title);
+}
+footer ul{
+    display:flex;
+    justify-content:center;
+    margin-bottom:1rem;
+}
+footer li{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    margin-left:1rem;
+    
+}
+footer img{
+    width:4rem;
+    height:4rem;
+    margin-right:1rem;
+    cursor:pointer;
+    
+}
