@@ -54,13 +54,12 @@ main section{
 }
 
 main nav{
-    margin-bottom:20px;
     font-size:2.5rem;
     border:solid ;
     position:fixed;
-    word-spacing:2rem;
+    word-spacing:0.5rem;
     border-color:var(--color-title);
-    margin-left: 2rem;
+    margin-left: 1%;
     border-radius:1rem;
     background-color:var(--color-secondary);
     
@@ -137,8 +136,8 @@ section ul li{
     border:solid;
     border-radius:1rem;
     border-color:var(--color-title);
-    margin-left:160rem;
-    margin-top:25rem;
+    margin-left:82%;
+    margin-top:4%;
     background-color:var(--color-secondary);
 }
 
