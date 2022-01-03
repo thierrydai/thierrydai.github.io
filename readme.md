@@ -1,4 +1,4 @@
-[voir la page]()
+[voir la page](https://thierrydai.github.io/)
 ```
 html
 <!DOCTYPE html>
@@ -147,12 +147,13 @@ main section{
 }
 
 main nav{
+    margin-bottom:20px;
     font-size:2.5rem;
     border:solid ;
     position:fixed;
-    word-spacing:0.5rem;
+    word-spacing:2rem;
     border-color:var(--color-title);
-    margin-left: 1%;
+    margin-left: 2rem;
     border-radius:1rem;
     background-color:var(--color-secondary);
     
@@ -229,8 +230,8 @@ section ul li{
     border:solid;
     border-radius:1rem;
     border-color:var(--color-title);
-    margin-left:82%;
-    margin-top:4%;
+    margin-left:160rem;
+    margin-top:25rem;
     background-color:var(--color-secondary);
 }
 
@@ -261,5 +262,24 @@ footer img{
     margin-right:1rem;
     cursor:pointer;
     
+}
+@media screen and (max-width: 800px) {
+    main nav{
+        display:none;
+    }
+    main section{
+        margin:auto;
+        margin-bottom:1rem;
+    }
+    header h1{
+        font-size:3rem; 
+        justify-content: center;
+        margin-bottom:1rem;
+    }
+    h1 img{
+        height:3rem;  
+        
+    }
+
 }
 ```
